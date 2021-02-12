@@ -32,10 +32,4 @@ class Bus:
     def getJumlah2():
         return Bus.__jumlah
 
-bus1 = Bus("Haryanto", "Caringin - Sd. Serang", 0, [])
-
-bus1.penumpangNaik("Haryanto")
-bus1.penumpangNaik("Hidayat")
-
-print(Bus.getJumlah())
-print(Bus.getJumlah2())
+#bus1 = Bus("Haryanto", "Caringin - Sd. Serang", 0, [])
